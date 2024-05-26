@@ -55,11 +55,11 @@ Ensure you have the following installed:
 Create a `.env` file in the root directory of the project and add the following variables:
 
 ```ini
-EMAIL=your_email@example.com
-ID_TELEGRAM=your_telegram_id
-TOKEN=your_bot_token
-OPENAI_API_KEY=your_openai_api_key
-LINK=your_project_link
+email=your_email@example.com
+idtelegram=your_telegram_id
+token=your_bot_token
+openai=your_openai_api_key
+link=your_project_link
 ```
 
 ### Additional Files
