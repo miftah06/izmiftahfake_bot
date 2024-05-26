@@ -1,0 +1,30 @@
+Bagaimana cara mengonversi data dari tipe satu ke tipe lain dalam Python?
+Apakah keuntungan menggunakan fungsi dalam pemrograman?
+Jelaskan perbedaan antara stack dan queue.
+Apakah itu recursion dan bagaimana cara mengimplementasikannya dalam Python?
+Bagaimana cara menggabungkan dua list dalam Python?
+Tuliskan program Python untuk menghasilkan pola segitiga.
+Tuliskan program Python untuk mengurutkan elemen-elemen dalam sebuah list.
+Jelaskan perbedaan antara list dan tuple dalam Python.
+Buatlah skrip Python untuk menghitung jumlah kata dalam sebuah teks.
+Apakah perbedaan antara == dan is dalam Python?
+Jelaskan perbedaan antara linear search dan binary search.
+Bagaimana cara menangani eksepsi (exception) dalam Python?
+Apa perbedaan antara metode GET dan POST dalam protokol HTTP?
+Apa itu algoritma dan kenapa penting dalam pemrograman?
+Tuliskan program Python untuk menghitung faktorial dari suatu bilangan.
+Berikan penjelasan tentang penanganan kesalahan (error handling) dalam Python.
+Bagaimana cara menggunakan modul eksternal (external module) dalam Python?
+Tuliskan program Python untuk mencari bilangan prima dalam rentang tertentu.
+Berikan penjelasan singkat tentang konsep pemrograman berorientasi objek.
+Jelaskan perbedaan antara mutable dan immutable objects dalam Python.
+Bagaimana cara menggunakan regular expression (regex) dalam Python?
+Bagaimana cara mengatasi konflik merge dalam sistem kontrol versi Git?
+Tuliskan program Python yang menghitung rata-rata dari sebuah list.
+Berikan penjelasan tentang virtual environment dalam Python.
+Tuliskan program Python sederhana untuk menghasilkan deret Fibonacci.
+Berikan penjelasan tentang konsep Big-O dalam analisis kinerja algoritma.
+Bagaimana cara membaca dan menulis file teks dalam Python?
+Jelaskan konsep inheritance dalam pemrograman berorientasi objek.
+Berikan penjelasan tentang konsep multithreading dalam pemrograman.
+Bagaimana cara mengakses elemen-elemen dalam sebuah dictionary di Python?

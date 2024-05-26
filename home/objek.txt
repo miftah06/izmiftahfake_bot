@@ -1,0 +1,18 @@
+pass
+while
+return
+is
+ —hm,... lepaskan... menelan... kemarahannya.... shinonono...... terima kasih atas perhatiannya. semoga anda menikmati cerita ini
+false
+break
+import
+not
+nonlocal
+in
+continue
+if
+yield
+def
+finally
+global
+raise

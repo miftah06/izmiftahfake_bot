@@ -1,0 +1,11 @@
+Generate text with command:
+
+; buatkanlah saya sebuah text dengan ['import requests\n', '\n', 'url = "https://api.sandbox.midtrans.com/v1/payment-links"\n', '\n', 'payload = {\n', '    "transaction_details": {\n', '        "order_id": "izmiftah-bot-membership-1bulan",\n', '        "gross_amount": 15000\n', '    },\n', '    "usage_limit": -2\n', '}\n', 'headers = {\n', '    "accept": "application/json",\n', '    "content-type": "application/json",\n', '    "authorization": "Basic U0ItTWlkLXNlcnZlci02ZlQxdWNGU1RrdVN4cWloZG9BNzJMSVM6U0ItTWlkLWNsaWVudC1rc084TmxsOGU0TDN5VmhT"\n', '}\n', '\n', 'response = requests.post(url, json=payload, headers=headers)\n', '\n', 'print(response.text)']serta dengan seakurat dan se sempurna mungkin serta yieldelse
+ dengan tambahan fungsi true for
+ adapun jika isinya berupa Bagaimana cara mengakses elemen-elemen dalam sebuah dictionary di Python? yieldelse
+
+;  dengan text berupa:
+
+Bagaimana cara mengakses elemen-elemen dalam sebuah dictionary di Python? bersama fungsi atau pembahasan mengenai true for serta berikan saya detail lengkapnya 
+
+
