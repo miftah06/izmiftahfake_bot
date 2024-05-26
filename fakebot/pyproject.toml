@@ -1,0 +1,334 @@
+# This project was generated with 0.3.18 using template: https://github.com/beeware/briefcase-template@v0.3.18
+[tool.briefcase]
+project_name = "Izmiftah Bot"
+bundle = "myai.miftah.izmiftahbot"
+version = "0.0.1"
+url = "https://izmiftah.my.id"
+license = "BSD license"
+author = "Miftah Izharuddin"
+author_email = "izharuddinmiftah@gmail.com"
+
+[tool.briefcase.app.fakebot]
+formal_name = "Izmiftah Bot"
+description = "Fake izmiftah ai bot"
+long_description = """More details about the app should go here.
+"""
+sources = [
+    "src/fakebot",
+]
+test_sources = [
+    "tests",
+]
+
+requires = [
+    "aiohttp==3.9.3",
+    "aiosignal==1.3.1",
+    "annotated-types==0.6.0",
+    "anyio==4.3.0",
+    "APScheduler==3.6.3",
+    "arrow==1.3.0",
+    "attrs==23.2.0",
+    "beautifulsoup4==4.12.3",
+    "binaryornot==0.4.4",
+    "briefcase==0.3.18",
+    "Brotli==1.1.0",
+    "build==1.2.1",
+    "cachetools==4.2.2",
+    "cairocffi==1.6.1",
+    "CairoSVG==2.7.1",
+    "certifi==2024.2.2",
+    "cffi==1.16.0",
+    "chardet==3.0.4",
+    "charset-normalizer==3.3.2",
+    "click==8.1.7",
+    "clr-loader==0.2.6",
+    "colorama==0.4.6",
+    "contourpy==1.2.1",
+    "cookiecutter==2.6.0",
+    "cssselect2==0.7.0",
+    "customtkinter==5.2.2",
+    "cycler==0.12.1",
+    "darkdetect==0.8.0",
+    "defusedxml==0.7.1",
+    "diffusers==0.27.2",
+    "distro==1.9.0",
+    "et-xmlfile==1.1.0",
+    "filelock==3.13.1",
+    "fonttools==4.49.0",
+    "fpdf==1.7.2",
+    "frozenlist==1.4.1",
+    "fsspec==2023.12.2",
+    "gitdb==4.0.11",
+    "GitPython==3.1.43",
+    "google==3.0.0",
+    "googletrans==3.0.0",
+    "gTTS==2.5.1",
+    "h11==0.9.0",
+    "h2==3.2.0",
+    "hpack==3.0.0",
+    "hstspreload==2024.5.1",
+    "html5lib==1.1",
+    "httpcore==0.9.1",
+    "httpx==0.13.3",
+    "huggingface-hub==0.23.1",
+    "hyperframe==5.2.0",
+    "idna==2.10",
+    "importlib_metadata==7.1.0",
+    "Jinja2==3.1.3",
+    "joblib==1.3.2",
+    "kiwisolver==1.4.5",
+    "lxml==5.1.0",
+    "markdown-it-py==3.0.0",
+    "MarkupSafe==2.1.5",
+    "matplotlib==3.9.0",
+    "mdurl==0.1.2",
+    "mpmath==1.3.0",
+    "multidict==6.0.5",
+    "mutagen==1.47.0",
+    "networkx==3.2.1",
+    "nltk==3.8.1",
+    "numpy==1.26.4",
+    "openai==0.28.1",
+    "opencv-python==4.9.0.80",
+    "openpyxl==3.1.2",
+    "packaging==24.0",
+    "pandas==2.1.4",
+    "pdfkit==1.0.0",
+    "pep272-encryption==0.4",
+    "pillow==10.2.0",
+    "platformdirs==4.2.2",
+    "psutil==5.9.8",
+    "pycparser==2.21",
+    "pycryptodomex==3.20.0",
+    "pydantic==2.6.4",
+    "pydantic_core==2.16.3",
+    "pydyf==0.9.0",
+    "Pygments==2.18.0",
+    "PyMuPDF==1.23.26",
+    "PyMuPDFb==1.23.22",
+    "pyparsing==3.1.2",
+    "PyPDF2==3.0.1",
+    "pyphen==0.14.0",
+    "pypng==0.20220715.0",
+    "pyproject_hooks==1.1.0",
+    "pyTelegramBotAPI==4.16.1",
+    "python-dateutil==2.9.0.post0",
+    "python-docx==1.1.0",
+    "python-dotenv==1.0.1",
+    "python-slugify==8.0.4",
+    "python-telegram-bot==13.7",
+    "pythonnet==3.0.3",
+    "pytz==2024.1",
+    "PyYAML==6.0.1",
+    "qrcode==7.4.2",
+    "randomizer==0.21",
+    "regex==2023.12.25",
+    "reportlab==4.0.9",
+    "requests==2.31.0",
+    "rfc3986==1.5.0",
+    "rich==13.7.1",
+    "safetensors==0.4.3",
+    "scapy==2.5.0",
+    "setuptools==69.2.0",
+    "six==1.16.0",
+    "smmap==5.0.1",
+    "sniffio==1.3.1",
+    "soupsieve==2.5",
+    "svgwrite==1.4.3",
+    "sympy==1.12",
+    "telebot==0.0.5",
+    "telegram==0.0.1",
+    "text-unidecode==1.3",
+    "tinycss2==1.2.1",
+    "tk==0.1.0",
+    "toga==0.4.4",
+    "toga-core==0.4.4",
+    "toga-winforms==0.4.4",
+    "tokenizers==0.19.1",
+    "tomli==2.0.1",
+    "tomli_w==1.0.0",
+    "torch==2.2.1",
+    "torchvision==0.17.1",
+    "tornado==6.4",
+    "tqdm==4.66.2",
+    "transformers==4.41.1",
+    "travertino==0.3.0",
+    "types-python-dateutil==2.9.0.20240316",
+    "typing_extensions==4.10.0",
+    "tzdata==2024.1",
+    "tzlocal==5.2",
+    "urllib3==2.2.1",
+    "weasyprint==61.2",
+    "webcolors==1.13",
+    "webencodings==0.5.1",
+    "websockets==12.0",
+    "wheel==0.43.0",
+    "wkhtmltopdf==0.2",
+    "XlsxWriter==3.2.0",
+    "xtea==0.7.1",
+    "yarl==1.9.4",
+    "youtube-search==2.1.2",
+    "youtube-search-python==1.5.1",
+    "yt-dlp==2024.4.9",
+    "zipp==3.17.0",
+    "zopfli==0.2.3"
+]
+test_requires = [
+    "pytest",
+]
+
+[tool.briefcase.app.fakebot.macOS]
+universal_build = true
+requires = [
+    "toga-cocoa~=0.4.0",
+    "std-nslog~=1.0.0",
+]
+
+[tool.briefcase.app.fakebot.linux]
+requires = [
+    "toga-gtk~=0.4.0",
+]
+
+[tool.briefcase.app.fakebot.linux.system.debian]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "libcairo2-dev",
+    # Needed to compile PyGObject wheel
+    "libgirepository1.0-dev",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK and its GI bindings
+    "gir1.2-gtk-3.0",
+    "libgirepository-1.0-1",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # Note: Debian 11 and Ubuntu 20.04 require gir1.2-webkit2-4.0 instead
+    # "gir1.2-webkit2-4.1",
+]
+
+[tool.briefcase.app.fakebot.linux.system.rhel]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to support Python bindings to GTK
+    "gobject-introspection",
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk3",
+]
+
+[tool.briefcase.app.fakebot.linux.system.suse]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to support Python bindings to GTK
+    "gobject-introspection", "typelib(Gtk) = 3.0",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra-gtk3-module",
+    # Needed to provide WebKit2 at runtime
+    # "libwebkit2gtk3", "typelib(WebKit2)",
+]
+
+[tool.briefcase.app.fakebot.linux.system.arch]
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection",
+    # Runtime dependencies that need to exist so that the
+    # Arch package passes final validation.
+    # Needed to provide GTK
+    "gtk3",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2
+    # "webkit2gtk",
+]
+
+system_runtime_requires = [
+    # Needed to provide GTK
+    "gtk3",
+    # Needed to provide PyGObject bindings
+    "gobject-introspection-runtime",
+    # Dependencies that GTK looks for at runtime
+    "libcanberra",
+    # Needed to provide WebKit2 at runtime
+    # "webkit2gtk",
+]
+
+[tool.briefcase.app.fakebot.linux.appimage]
+manylinux = "manylinux_2_28"
+
+system_requires = [
+    # Needed to compile pycairo wheel
+    "cairo-gobject-devel",
+    # Needed to compile PyGObject wheel
+    "gobject-introspection-devel",
+    # Needed to provide GTK
+    "gtk3-devel",
+    # Dependencies that GTK looks for at runtime, that need to be
+    # in the build environment to be picked up by linuxdeploy
+    "libcanberra-gtk3",
+    "PackageKit-gtk3-module",
+    "gvfs-client",
+]
+
+linuxdeploy_plugins = [
+    "DEPLOY_GTK_VERSION=3 gtk",
+]
+
+[tool.briefcase.app.fakebot.linux.flatpak]
+flatpak_runtime = "org.gnome.Platform"
+flatpak_runtime_version = "45"
+flatpak_sdk = "org.gnome.Sdk"
+
+[tool.briefcase.app.fakebot.windows]
+requires = [
+    "toga-winforms~=0.4.0",
+]
+
+# Mobile deployments
+[tool.briefcase.app.fakebot.iOS]
+requires = [
+    "toga-iOS~=0.4.0",
+    "std-nslog~=1.0.0",
+]
+
+[tool.briefcase.app.fakebot.android]
+requires = [
+    "toga-android~=0.4.0",
+]
+
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+
+build_gradle_dependencies = [
+    "androidx.appcompat:appcompat:1.6.1",
+    "com.google.android.material:material:1.11.0",
+    # Needed for DetailedList
+    "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+]
+
+# Web deployments
+[tool.briefcase.app.fakebot.web]
+requires = [
+    "toga-web~=0.4.0",
+]
+style_framework = "Shoelace v2.3"
+
