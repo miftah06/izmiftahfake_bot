@@ -23,7 +23,6 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
 
 import payment_link_bot as telegram_payment_link
-from hasilkan1 import prompt
 
 # Ganti dengan token bot Telegram Anda
 keywords_list = []
