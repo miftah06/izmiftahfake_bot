@@ -16,7 +16,7 @@ Ensure you have the following installed:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/fakebot.git
+   git clone https://github.com/miftah06/fakebot.git
    cd fakebot
    ```
 
