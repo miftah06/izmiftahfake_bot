@@ -67,7 +67,7 @@ LINK=your_project_link
 Move any additional files to the appropriate directory:
 
 ```bash
-mv additional_file.txt C:\Users\{YourLaptopName}\Documents\
+mv additional_file C:\Users\{YourLaptopName}\
 ```
 
 Replace `{YourLaptopName}` with the name of your laptop.
