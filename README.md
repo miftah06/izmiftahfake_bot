@@ -72,40 +72,6 @@ mv additional_file.txt C:\Users\{YourLaptopName}\Documents\
 
 Replace `{YourLaptopName}` with the name of your laptop.
 
-## Creative Functionality
-
-Here's a creative example of using global variables in Python. 
-
-### Global Variables and Functions
-
-In Python, global variables are declared outside of functions and can be accessed within any function in the script.
-
-#### Example
-
-```python
-# Global variable
-global_var = "I'm a global variable!"
-
-def creative_function():
-    global global_var
-    print(global_var)
-    if global_var == "I'm a global variable!":
-        print("This is a creative way to use global variables.")
-    else:
-        print("Let's think of something more creative!")
-
-def update_global(value):
-    global global_var
-    global_var = value
-
-# Running the functions
-creative_function()
-update_global("Now I'm updated!")
-creative_function()
-```
-
-This structure allows you to maintain a global state within your script, which can be useful for configurations and settings that need to be accessed and modified across different parts of your application.
-
 ## Conclusion
 
 By following this guide, you should be able to set up and run your FakeBot project seamlessly. The examples provided also give you a glimpse into using global variables creatively within your code. 
