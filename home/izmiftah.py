@@ -2239,7 +2239,7 @@ def payment_successful(order_id, db, message):
 
     # Verifikasi pembayaran dengan Midtrans API
     response = requests.get(f"https://api.midtrans.com/v2/{order.payment_id}/status",
-                            auth=('Mid-server-fEdz_IL0hWPSMUh_4o53f35O', ''))
+                            auth=('', ''))
     transaction_status = response.json()['transaction_status']
 
     if transaction_status == 'capture':
