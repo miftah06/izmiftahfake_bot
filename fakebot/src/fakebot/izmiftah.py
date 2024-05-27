@@ -10,7 +10,7 @@ import sqlite3
 import subprocess
 import threading
 import time
-
+from dotenv import load_dotenv
 import googlesearch as search
 import openai
 import requests
