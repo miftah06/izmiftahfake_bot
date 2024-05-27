@@ -10,7 +10,7 @@ import sqlite3
 import subprocess
 import threading
 import time
-
+from dotenv import load_dotenv
 import googlesearch as search
 import openai
 import requests
@@ -21,9 +21,6 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
-
-import payment_link_bot as telegram_payment_link
-from hasilkan1 import prompt
 
 # Ganti dengan token bot Telegram Anda
 keywords_list = []
@@ -2239,7 +2236,7 @@ def payment_successful(order_id, db, message):
 
     # Verifikasi pembayaran dengan Midtrans API
     response = requests.get(f"https://api.midtrans.com/v2/{order.payment_id}/status",
-                            auth=('Mid-server-fEdz_IL0hWPSMUh_4o53f35O', ''))
+                            auth=('', ''))
     transaction_status = response.json()['transaction_status']
 
     if transaction_status == 'capture':
