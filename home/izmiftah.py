@@ -22,8 +22,6 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from tqdm import tqdm
 
-import payment_link_bot as telegram_payment_link
-
 # Ganti dengan token bot Telegram Anda
 keywords_list = []
 load_dotenv('.env')
